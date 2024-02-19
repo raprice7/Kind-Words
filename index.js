@@ -50,6 +50,8 @@ onValue(endorsementsInDB, function(snapshot){
 //Clear Input Function
 function clearInput(){
     endorsementFieldEl.value = "";
+    fromFieldEl.value="";
+    toFieldEl.value="";
 }
 //Clear Endorsements List function
 function clearEndorsementsListEl(){
